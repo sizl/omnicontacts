@@ -16,7 +16,7 @@ module OmniContacts
         @scope = 'email,user_relationships,user_birthday,user_friends'
         @auth_token_path = '/oauth/access_token'
         @contacts_host = 'graph.facebook.com'
-        @friends_path = '/v2.5/me/friends'
+        @friends_path = '/v2.5/me/invitable_friends'
         @family_path = '/v2.5/me/family'
         @self_path = '/v2.5/me'
       end
